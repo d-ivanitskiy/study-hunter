@@ -87,8 +87,8 @@ function OrgLk() {
       <div className="tabs">
         <nav>
           <div className="nav nav-tabs" id="nav-tab" role="tablist">
-            <button className={toggleState === 1 ? 'nav-link active' : 'nav-link'} onClick={() => toggleTab(1)} id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Главная</button>
-            <button className={toggleState === 2 ? 'nav-link active' : 'nav-link'} onClick={() => toggleTab(2)} id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Профиль</button>
+            <button className={toggleState === 1 ? 'nav-link active' : 'nav-link'} onClick={() => toggleTab(1)} id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Направления</button>
+            <button className={toggleState === 2 ? 'nav-link active' : 'nav-link'} onClick={() => toggleTab(2)} id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Отклики</button>
           </div>
         </nav>
         <div className="tab-content" id="nav-tabContent">
